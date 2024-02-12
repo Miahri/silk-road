@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ID {
+    width: 200px;
+}
+
+.ID span {
+    background-color: #edf5f5;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.ID :nth-child(2) {
+    background-color: limegreen;
+    color: #FFFFFF;
+}
+
+.mainInfo {
+    width: 500px;
+    padding: 0;
+}
+
+.mainInfo h3 {
+    font-size: 25px;
+}
+
+.mainInfo p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mainInfo button {
+    width: 250px;
+    height: 80px;
+    font-size: 18px;
+    transition: width 0.1s, height 0.1s, background-color 0.3s;
+}
+
+.mainInfo button:hover {
+    width: 255px;
+    height: 85px;
+}
+
+.mainInfo table {
+    width: 500px;
+    font-size: 18px;
+}
+
+.mainInfo table td,
+.details table td {
+    padding: 10px 0;
+}
+
+.details {
+    padding: 30px 0;
+}
+
+.details h4 {
+    margin: 0;
+}
+
+.details table {
+    width: 800px;
+}
+

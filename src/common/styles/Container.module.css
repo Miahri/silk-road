@@ -1,0 +1,15 @@
+.section {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2d333d;
+    flex-wrap: wrap;
+}

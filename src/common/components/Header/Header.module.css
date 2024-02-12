@@ -1,0 +1,31 @@
+.header {
+    height: 80px;
+    background-color: #D9B666;
+}
+
+.logo {
+    width: 160px;
+    height: 70px;
+}
+
+.phone {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.phone img {
+    width: 35px;
+    height: 35px;
+}
+
+.phoneNumbers p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.phoneNumbers p:hover {
+    text-decoration: underline;
+}

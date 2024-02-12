@@ -1,0 +1,19 @@
+.nav {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #2d333d;
+}
+
+.nav a.active {
+    color: #2d333d;
+    font-weight: bold;
+}

@@ -1,0 +1,91 @@
+.section {
+    height: 220vh;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 15px;
+    width: 100%;
+    height: 515px;
+}
+
+.box2 img, .box3 img,
+.box5 img, .box6 img {
+    height: 150px;
+}
+
+.box1 img, .box7 img {
+    height: 470px;
+}
+
+.box4 img, .box8 img {
+    height: 200px;
+}
+
+.description {
+    width: 90%;
+    height: 150px;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0 30px;
+}
+
+.box4 .description, .box8 .description {
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.box1 {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.box2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.box3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.box4 {
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+
+.box5 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.box6 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.box7 {
+    grid-column: 3;
+    grid-row: 3 / 5;
+}
+
+.box8 {
+    grid-column: 1 / 3;
+    grid-row: 4;
+}

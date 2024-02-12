@@ -1,0 +1,41 @@
+.section {
+    height: 40vh;
+    background-color: #64646A;
+}
+
+.footerLogo {
+    width: 350px;
+    height: 120px;
+}
+
+.block {
+    justify-content: flex-start;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    height: 90%;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    margin: 7px 0;
+}
+
+.contact img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.contact p:hover {
+    text-decoration: underline;
+}

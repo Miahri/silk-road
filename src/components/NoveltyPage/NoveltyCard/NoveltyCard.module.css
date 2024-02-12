@@ -1,0 +1,17 @@
+.noveltyCard {
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.noveltyCard button {
+    margin-bottom: 15px;
+}
+
+.description {
+    width: 220px;
+    padding: 0 30px;
+}
+
+.description p {
+    font-size: 14px;
+}
