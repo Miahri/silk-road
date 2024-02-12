@@ -13,3 +13,8 @@
     color: #2d333d;
     flex-wrap: wrap;
 }
+
+.container a {
+    text-decoration: none;
+    color: #2d333d;
+}
