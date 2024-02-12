@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/silk-road/static/css/main.db1bb6c9.css",
+    "main.css": "/silk-road/static/css/main.721ba1d0.css",
     "main.js": "/silk-road/static/js/main.3b339ad8.js",
     "static/js/787.8bc065f6.chunk.js": "/silk-road/static/js/787.8bc065f6.chunk.js",
     "static/media/syoss.png": "/silk-road/static/media/syoss.2d49d000f1d43c080da6.png",
@@ -10,12 +10,12 @@
     "static/media/schaumaLogo.png": "/silk-road/static/media/schaumaLogo.8b575b09ee19aaea9404.png",
     "static/media/syossLogo.png": "/silk-road/static/media/syossLogo.96fc3863fb49593eca59.png",
     "index.html": "/silk-road/index.html",
-    "main.db1bb6c9.css.map": "/silk-road/static/css/main.db1bb6c9.css.map",
+    "main.721ba1d0.css.map": "/silk-road/static/css/main.721ba1d0.css.map",
     "main.3b339ad8.js.map": "/silk-road/static/js/main.3b339ad8.js.map",
     "787.8bc065f6.chunk.js.map": "/silk-road/static/js/787.8bc065f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db1bb6c9.css",
+    "static/css/main.721ba1d0.css",
     "static/js/main.3b339ad8.js"
   ]
 }
