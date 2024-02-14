@@ -9,6 +9,7 @@ import syossPure from './components/ProductPage/syossPure.png';
 import {NoveltyPage} from "./components/NoveltyPage/NoveltyPage";
 import {Route, Routes} from 'react-router-dom';
 import {CatalogPage} from "./components/CatalogPage/CatalogPage";
+import Error404 from "./components/Error404/Error404";
 
 const product: ProductType = {
   id: v1(),
@@ -45,6 +46,7 @@ function App() {
         <Route path={'/'} element={<MainPage/>}/>
         <Route path={'/new-products'} element={<NoveltyPage styles={''}/>}/>
         <Route path={'/catalog'} element={<CatalogPage/>}/>
+        <Route path='*' element={<Error404/>} />
       </Routes>
       <ProductPage product={product}/>
       <Footer/>
