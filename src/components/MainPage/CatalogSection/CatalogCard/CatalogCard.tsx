@@ -11,12 +11,12 @@ type CatalogCardPropsType = {
 export const CatalogCard: FC<CatalogCardPropsType> = (props) => {
 
   return (
-    <div>
+    <>
       <img src={props.novelty.photo} alt={"catalog"}/>
       <div className={`${card.infoBlock} ${catalog.description}`}>
         <p>{props.novelty.name}</p>
         <button className={button.button}>Подробнее</button>
       </div>
-    </div>
+    </>
   );
 };
