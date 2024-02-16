@@ -24,7 +24,9 @@ export const Footer = () => {
   return (
     <div className={`${container.section} ${styles.section}`}>
       <div className={container.container}>
-        <img src={footerLogo} alt={'logo'} className={styles.footerLogo}/>
+        <div>
+          <img src={footerLogo} alt={'logo'} className={styles.footerLogo}/>
+        </div>
         <div className={`${card.infoBlock} ${styles.block}`}>
           <p>Контакты</p>
           {contacts.map(el => <ContactItem key={el.id} item={el} />)}

@@ -5,15 +5,16 @@ import niveaLogo from './logos/niveaLogo.png';
 import syossLogo from './logos/syossLogo.png';
 import oldSpiceLogo from './logos/oldSpiceLogo.png';
 import schaumaLogo from './logos/schaumaLogo.png';
+ import {NavLink} from "react-router-dom";
 
 export const BrandSection = () => {
   return (
     <div className={styles.section}>
       <div className={container.container}>
-        <a href={'https://'}><img src={niveaLogo} alt={'nivea-logo'}/></a>
-        <a href={'https://'}><img src={syossLogo} alt={'syoss-logo'}/></a>
-        <a href={'https://'}><img src={oldSpiceLogo} alt={'oldSpice-logo'}/></a>
-        <a href={'https://'}><img src={schaumaLogo} alt={'schauma-logo'}/></a>
+        <NavLink to={'/new-products'}><img src={niveaLogo} alt={'nivea-logo'}/></NavLink>
+        <NavLink to={'/new-products'}><img src={syossLogo} alt={'syoss-logo'}/></NavLink>
+        <NavLink to={'/new-products'}><img src={oldSpiceLogo} alt={'oldSpice-logo'}/></NavLink>
+        <NavLink to={'/new-products'}><img src={schaumaLogo} alt={'schauma-logo'}/></NavLink>
       </div>
     </div>
   );
