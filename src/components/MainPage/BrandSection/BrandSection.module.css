@@ -2,3 +2,9 @@
     height: 150px;
     background-color: #D9B666;
 }
+
+@media (max-width: 768px), (min-width: 769px) and (max-width: 1024px) {
+    .section {
+        height: 80px;
+    }
+}

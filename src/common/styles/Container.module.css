@@ -18,3 +18,12 @@
     text-decoration: none;
     color: #2d333d;
 }
+
+@media (max-width: 768px), (min-width: 769px) and (max-width: 1024px) {
+    .section {
+        height: 100%;
+    }
+    a img {
+        width: 60px;
+    }
+}
