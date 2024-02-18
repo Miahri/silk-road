@@ -32,3 +32,9 @@
     box-sizing: border-box;
     padding: 10px;
 }
+
+@media (max-width: 768px), (min-width: 769px) and (max-width: 1024px) {
+    .card img {
+        height: 120px;
+    }
+}

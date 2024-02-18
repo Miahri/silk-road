@@ -16,3 +16,11 @@
     background-color: #edf5f5;
     color: #64646A;
 }
+
+@media (max-width: 768px), (min-width: 769px) and (max-width: 1024px) {
+    .button {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+}

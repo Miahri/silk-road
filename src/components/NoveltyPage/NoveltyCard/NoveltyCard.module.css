@@ -18,17 +18,19 @@
 
 @media (max-width: 768px), (min-width: 769px) and (max-width: 1024px) {
     .noveltyCard {
-        width: 180px;
+        width: 160px;
     }
     .noveltyCard button {
         margin-bottom: 5px;
     }
     .description {
-        width: 152px;
-        padding: 15px;
+        width: 140px;
+        padding: 10px;
+        margin: 0 auto;
     }
     .description p {
         font-size: 9px;
+        margin: 0;
     }
     .description h3 {
         font-size: 12px;
