@@ -18,7 +18,7 @@ export const OrderSection = () => {
   return (
     <div className={`${container.section} ${order.section}`}>
       <div className={`${container.container} ${order.container}`}>
-        <h2>Как заказать товары?</h2>
+        <h2>Как оформить заказы?</h2>
         <div className={wrapper.wrapper}>
           {orderOptions.map(el => <OrderOption key={el.id} option={el}/>)}
         </div>
