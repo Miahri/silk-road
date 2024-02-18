@@ -24,23 +24,23 @@ export const Footer = () => {
   return (
     <div className={`${container.section} ${styles.section}`}>
       <div className={container.container}>
-        <div>
-          <img src={footerLogo} alt={'logo'} className={styles.footerLogo}/>
-        </div>
-        <div className={`${card.infoBlock} ${styles.block}`}>
-          <p>Контакты</p>
-          {contacts.map(el => <ContactItem key={el.id} item={el} />)}
-        </div>
-        <div className={`${card.infoBlock} ${styles.block}`}>
-          <p>Социальные страницы</p>
-          <div className={styles.contact}>
-            <a href={'https://m.facebook.com'}><img src={fbIcon} alt={'facebook'}/></a>
-            <a href={'https://www.instagram.com'}><img src={instaIcon} alt={'instagram'}/></a>
-            <a href={'https://web.telegram.org'}><img src={tgIcon} alt={'telegram'}/></a>
-            <a href={'https://vk.com'}><img src={vkIcon} alt={'vk'}/></a>
-            <a href={'https://www.whatsapp.com'}><img src={waIcon} alt={'whatsapp'}/></a>
+          <div>
+            <img src={footerLogo} alt={'logo'} className={styles.footerLogo}/>
           </div>
-        </div>
+          <div className={`${card.infoBlock} ${styles.contactBlock}`}>
+            <p>Контакты</p>
+            {contacts.map(el => <ContactItem key={el.id} item={el} />)}
+          </div>
+          <div className={`${card.infoBlock} ${styles.socialBlock}`}>
+            <p>Социальные страницы</p>
+            <div className={styles.contact}>
+              <a href={'https://m.facebook.com'}><img src={fbIcon} alt={'facebook'}/></a>
+              <a href={'https://www.instagram.com'}><img src={instaIcon} alt={'instagram'}/></a>
+              <a href={'https://web.telegram.org'}><img src={tgIcon} alt={'telegram'}/></a>
+              <a href={'https://vk.com'}><img src={vkIcon} alt={'vk'}/></a>
+              <a href={'https://www.whatsapp.com'}><img src={waIcon} alt={'whatsapp'}/></a>
+            </div>
+          </div>
       </div>
     </div>
   );
