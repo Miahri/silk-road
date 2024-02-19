@@ -3,12 +3,23 @@
     background-color: #64646A;
 }
 
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2d333d;
+    flex-wrap: wrap;
+}
+
 .footerLogo {
     width: 350px;
     height: 120px;
 }
 
-.contactBlock, .socialBlock{
+.contactBlock, .socialBlock {
     justify-content: flex-start;
     color: #FFFFFF;
     font-size: 18px;
@@ -44,26 +55,47 @@
     .section {
         height: 100%
     }
+
     .container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 80px 150px;
+        grid-template-columns: auto;
+        grid-template-areas:
+        'flogo flogo'
+        'contact social';
     }
+
     .footerLogo {
+        grid-area: flogo;
         width: 130px;
         height: 60px;
+        justify-content: flex-start;
     }
-    .block {
+
+    .socialBlock {
+        grid-area: social;
+        padding: 0;
+    }
+
+    .contactBlock {
+        grid-area: contact;
+        padding: 0;
+    }
+
+    .socialBlock, .contactBlock p {
         font-size: 14px;
     }
+
     .contact {
         width: 150px;
         margin: 5px 0;
     }
+
     .contact img {
         width: 15px;
         height: 15px;
     }
+
     .contact p {
         font-size: 10px;
     }

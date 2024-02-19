@@ -23,7 +23,7 @@ const contacts: ContactItemType[] = [
 export const Footer = () => {
   return (
     <div className={`${container.section} ${styles.section}`}>
-      <div className={container.container}>
+      <div className={styles.container}>
           <div>
             <img src={footerLogo} alt={'logo'} className={styles.footerLogo}/>
           </div>
