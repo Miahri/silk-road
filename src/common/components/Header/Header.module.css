@@ -3,12 +3,25 @@
     background-color: #D9B666;
 }
 
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2d333d;
+    flex-wrap: wrap;
+}
+
 .logo {
     width: 160px;
     height: 70px;
+    grid-area: logo;
 }
 
 .phone {
+    grid-area: phone;
     width: 160px;
     display: flex;
     justify-content: space-between;
@@ -28,4 +41,37 @@
 
 .phoneNumbers p:hover {
     text-decoration: underline;
+}
+
+.burgerMenuIcon {
+    width: 14px;
+    height: 14px;
+    color: #FFFFFF;
+    grid-area: menu;
+}
+
+@media (max-width: 768px), (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        height: 100%
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 80px auto 80px;
+        grid-template-areas: 'menu logo phone';
+    }
+    .logo {
+        width: 80px;
+        height: 35px;
+        align-self: center;
+    }
+    .phone {
+        width: 80px;
+    }
+    .phone img {
+        width: 13px;
+        height: 13px;
+    }
+    .phone p {
+        font-size: 7px;
+    }
 }
