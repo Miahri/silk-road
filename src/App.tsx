@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import {MainPage} from "./components/MainPage/MainPage";
-import {Header} from "./common/components/Header/Header";
 import {Footer} from "./common/components/Footer/Footer";
 import {ProductPage, ProductType} from "./components/ProductPage/ProductPage";
 import {v1} from "uuid";
@@ -10,6 +9,7 @@ import {NoveltyPage} from "./components/NoveltyPage/NoveltyPage";
 import {Route, Routes} from 'react-router-dom';
 import {CatalogPage} from "./components/CatalogPage/CatalogPage";
 import Error404 from "./components/Error404/Error404";
+import {Layout} from "./common/components/layout/Layout";
 
 const product: ProductType = {
   id: v1(),
@@ -41,13 +41,14 @@ const product: ProductType = {
 function App() {
   return (
     <div>
-      <Header/>
-      <Routes>
-        <Route path={'/'} element={<MainPage/>}/>
-        <Route path={'/new-products'} element={<NoveltyPage styles={''}/>}/>
-        <Route path={'/catalog'} element={<CatalogPage/>}/>
-        <Route path='*' element={<Error404/>} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path={'/'} element={<MainPage/>}/>
+          <Route path={'/new-products'} element={<NoveltyPage styles={''}/>}/>
+          <Route path={'/catalog'} element={<CatalogPage/>}/>
+          <Route path='*' element={<Error404/>}/>
+        </Routes>
+      </Layout>
       {/*<ProductPage product={product}/>*/}
       <Footer/>
     </div>

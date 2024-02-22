@@ -1,0 +1,33 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.sidebar.open {
+    width: 200px;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 120px;
+    border-color: transparent;
+    background: transparent;
+}
+
+.close img {
+    margin-top: 10px;
+    width: 14px;
+    height: 14px;
+}
