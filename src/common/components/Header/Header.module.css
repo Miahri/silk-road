@@ -56,7 +56,7 @@
     }
     .container {
         display: grid;
-        grid-template-columns: 80px auto 80px;
+        grid-template-columns: 80px auto 90px;
         grid-template-areas: 'menu logo phone';
     }
     .logo {
