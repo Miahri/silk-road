@@ -49,7 +49,7 @@ function App() {
           <Route path='*' element={<Error404/>}/>
         </Routes>
       </Layout>
-      {/*<ProductPage product={product}/>*/}
+      <ProductPage product={product}/>
       <Footer/>
     </div>
   );

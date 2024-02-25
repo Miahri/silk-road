@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import styles from '../OrderSection.module.css';
+import styles from '../ValuesSection.module.css';
 
 export type OptionType = {
   id: string
@@ -12,7 +12,7 @@ type OptionPropsType = {
   option: OptionType
 }
 
-export const OrderOption: FC<OptionPropsType> = (props) => {
+export const ValuesOption: FC<OptionPropsType> = (props) => {
   return (
     <div className={styles.option}>
       <img src={props.option.icon} alt={`${props.option.name}Icon`} className={styles.orderIcon}/>

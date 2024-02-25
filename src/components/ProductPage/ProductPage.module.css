@@ -42,11 +42,6 @@
     transition: width 0.1s, height 0.1s, background-color 0.3s;
 }
 
-.mainInfo button:hover {
-    width: 255px;
-    height: 85px;
-}
-
 .mainInfo table {
     width: 500px;
     font-size: 18px;
@@ -69,3 +64,43 @@
     width: 800px;
 }
 
+@media (max-width: 768px), (min-width: 769px) and (max-width: 1024px) {
+    .container > p {
+        font-size: 7px;
+    }
+    .ID {
+        width: 100px;
+    }
+    .ID span {
+        font-size: 6px;
+        padding: 6px;
+    }
+    .mainInfo {
+        width: 350px;
+    }
+    .mainInfo h3 {
+        font-size: 14px;
+    }
+    .mainInfo p {
+        font-size: 20px;
+    }
+    .mainInfo button {
+        width: 125px;
+        height: 40px;
+        font-size: 9px;
+    }
+    .details {
+        padding: 15px 0;
+    }
+    .details h4, p {
+        font-size: 12px;
+    }
+    .details table, .mainInfo table {
+        width: 100%;
+        font-size: 12px;
+    }
+    .mainInfo table td,
+    .details table td {
+        padding: 5px 0;
+    }
+}

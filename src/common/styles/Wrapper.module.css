@@ -16,5 +16,6 @@
     .productImg, .productImg img {
         width: 300px;
         height: 300px;
+        align-self: center;
     }
 }
