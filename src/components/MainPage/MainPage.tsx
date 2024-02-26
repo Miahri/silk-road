@@ -3,7 +3,7 @@ import container from '../../common/styles/Container.module.css';
 import {InfoSection} from "./InfoSection/InfoSection";
 import {BrandSection} from "./BrandSection/BrandSection";
 import {CatalogSection} from "./CatalogSection/CatalogSection";
-import {OrderSection} from "./OrderSection/OrderSection";
+import {ValuesSection} from "./ValuesSection/ValuesSection";
 import {NoveltyPage} from "../NoveltyPage/NoveltyPage";
 
 export const MainPage = () => {
@@ -13,7 +13,7 @@ export const MainPage = () => {
       <BrandSection />
       <NoveltyPage styles={`${container.section}`}/>
       <CatalogSection />
-      <OrderSection />
+      <ValuesSection />
     </div>
   );
 };
