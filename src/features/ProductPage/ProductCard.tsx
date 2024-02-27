@@ -3,8 +3,8 @@ import wrapper from "../../common/styles/Wrapper.module.css";
 import card from "../../common/styles/Card.module.css";
 import product from "./ProductPage.module.css";
 import button from "../../common/styles/Button.module.css";
-import {ProductType} from "./ProductPage";
 import {Table} from "./Table";
+import {ProductType} from "../../api/types";
 
 type ProductCardPropsType = {
   product: ProductType

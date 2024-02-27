@@ -19,15 +19,15 @@
 
 .box2 img, .box3 img,
 .box5 img, .box6 img {
-    height: 150px;
+    height: 150px !important;
 }
 
 .box1 img, .box7 img {
-    height: 470px;
+    height: 470px !important;
 }
 
 .box4 img, .box8 img {
-    height: 200px;
+    height: 200px !important;
 }
 
 .description {
@@ -108,7 +108,7 @@
     }
     .box1 img, .box2 img, .box3 img, .box4 img,
     .box5 img, .box6 img, .box7 img, .box8 img {
-        height: 120px;
+        height: 120px !important;
     }
     .box1 .description, .box2 .description, .box3 .description, .box4 .description,
     .box5 .description, .box6 .description, .box7 .description, .box8 .description {

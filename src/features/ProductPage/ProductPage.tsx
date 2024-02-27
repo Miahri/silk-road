@@ -4,24 +4,7 @@ import container from '../../common/styles/Container.module.css';
 import wrapper from '../../common/styles/Wrapper.module.css';
 import {ProductCard} from "./ProductCard";
 import {ProductDescr} from "./ProductDescr";
-
-export type PropertyType = {
-  id: string
-  name: string
-  value: string
-}
-
-export type ProductType = {
-  id: string
-  name: string
-  photo: any
-  description: string
-  composition: string
-  application: string
-  amount: number
-  cost: string
-  properties: PropertyType[]
-}
+import {ProductType} from "../../api/types";
 
 type ProductPagePropsType = {
   product: ProductType

@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
-import {MainPage} from "./components/MainPage/MainPage";
-import {Footer} from "./common/components/Footer/Footer";
-import {ProductPage, ProductType} from "./components/ProductPage/ProductPage";
+import {MainPage} from "../components/MainPage/MainPage";
+import {Footer} from "../common/components/Footer/Footer";
+import {ProductPage} from "../features/ProductPage/ProductPage";
 import {v1} from "uuid";
-import syossPure from './components/ProductPage/syossPure.png';
-import {NoveltyPage} from "./components/NoveltyPage/NoveltyPage";
+import syossPure from '../features/ProductPage/syossPure.png';
+import {NoveltyPage} from "../features/NoveltyPage/NoveltyPage";
 import {Route, Routes} from 'react-router-dom';
-import {CatalogPage} from "./components/CatalogPage/CatalogPage";
-import Error404 from "./components/Error404/Error404";
-import {Layout} from "./common/components/layout/Layout";
+import {CatalogPage} from "../features/Catalog/CatalogPage";
+import Error404 from "../components/Error404/Error404";
+import {Layout} from "../common/components/layout/Layout";
+import {ProductType} from "../api/types";
 
 const product: ProductType = {
   id: v1(),
@@ -39,6 +40,7 @@ const product: ProductType = {
 
 
 function App() {
+
   return (
     <div>
       <Layout>
