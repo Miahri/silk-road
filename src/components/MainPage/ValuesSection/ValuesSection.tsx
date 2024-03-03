@@ -2,7 +2,7 @@ import React from 'react';
 import container from "../../../common/styles/Container.module.css";
 import wrapper from '../../../common/styles/Wrapper.module.css';
 import {OptionType, ValuesOption} from "./ValuesOption/ValuesOption";
-import values from './valuesSection.module.css';
+import values from './ValuesSection.module.css';
 import {v1} from "uuid";
 import cart from './icons/cartIcon.png';
 import email from './icons/emailIcon.png';
