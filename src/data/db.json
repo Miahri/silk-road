@@ -1,0 +1,33 @@
+{
+  "catalogItems": [
+    {"id": "1", "name": "Товары по уходу за одеждой и обувью", "photo": "https://drive.google.com/file/d/1T3JTDc1OexYTXhvAzXuEU4hvXnITA48t/view?usp=drive_link"},
+    {"id": "2", "name": "Средства для стирки", "photo": "https://drive.google.com/file/d/1RzxSt0lYzyVJD9TBbplIoljJ9kXgDWvs/view?usp=drive_link"},
+    {"id": "3", "name": "Чистящие средтва", "photo": "https://drive.google.com/file/d/1c7WjQLdKL97CWzIWy8TAstcdFyJL9LwU/view?usp=drive_link"},
+    {"id": "4", "name": "Средства для мытья посуды", "photo": "https://drive.google.com/file/d/15DH5oPfrJ1OJy3s5E5u_e4L_H-xHh2c-/view?usp=drive_link"},
+    {"id": "5", "name": "Освежители воздуха", "photo": "https://drive.google.com/file/d/1XAua-GI7gA9VeEloWc19n1evCVmhc4xK/view?usp=drive_link"},
+    {"id": "6", "name": "Хозтовары", "photo": "https://drive.google.com/file/d/1yzlmIh52sJuXsjPVKPeLAvQNHkHuatcu/view?usp=drive_link"},
+    {"id": "7", "name": "Аксессуары для уборки", "photo": "https://drive.google.com/file/d/11JZopirBEwgi33SfgTT1aBZ-kTdh3LGh/view?usp=drive_link"},
+    {"id": "8", "name": "Бумажная продукция", "photo": "https://drive.google.com/file/d/1r8kmQ68GqYkfS8s4440zH_x5jWmjGmTf/view?usp=drive_link"},
+    {"id": "9", "name": "Товары для красоты", "photo": "https://drive.google.com/file/d/1wLsls-vLuKv99plngyw9wPkFbUYP22iQ/view?usp=drive_link"}
+  ],
+  "products": {
+    "1": {"id": "", "name": "", "photo": "", "description": "", "composition": "", "application": "",
+      "amount": "", "cost": ""},
+    "2": {"id": "", "name": "", "photo": "", "description": "", "composition": "", "application": "",
+      "amount": "", "cost": ""},
+    "3": {"id": "", "name": "", "photo": "", "description": "", "composition": "", "application": "",
+      "amount": "", "cost": ""},
+    "4": {"id": "", "name": "", "photo": "", "description": "", "composition": "", "application": "",
+      "amount": "", "cost": ""},
+    "5": {"id": "", "name": "", "photo": "", "description": "", "composition": "", "application": "",
+      "amount": "", "cost": ""},
+    "6": {"id": "", "name": "", "photo": "", "description": "", "composition": "", "application": "",
+      "amount": "", "cost": ""},
+    "7": {"id": "", "name": "", "photo": "", "description": "", "composition": "", "application": "",
+      "amount": "", "cost": ""},
+    "8": {"id": "", "name": "", "photo": "", "description": "", "composition": "", "application": "",
+      "amount": "", "cost": ""},
+    "9": {"id": "", "name": "", "photo": "", "description": "", "composition": "", "application": "",
+      "amount": "", "cost": ""}
+  }
+}
