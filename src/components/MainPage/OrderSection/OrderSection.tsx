@@ -1,6 +1,7 @@
 import React, {ChangeEvent, FormEvent, useState} from 'react';
 import container from '../../../common/styles/Container.module.css';
 import styles from './OrderSection.module.css';
+import {TextField} from "@mui/material";
 
 type FormData = {
   phone: string
@@ -9,7 +10,7 @@ type FormData = {
   comment: string
 }
 
-const OrderSection = () => {
+export const OrderSection = () => {
   const [formData, setFormData] = useState<FormData>({
     phone: '',
     email: '',
@@ -18,7 +19,7 @@ const OrderSection = () => {
   });
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
+    const {name, value} = e.target;
     setFormData({
       ...formData,
       [name]: value
@@ -40,48 +41,55 @@ const OrderSection = () => {
         <h2>Оформить заказы</h2>
         <form onSubmit={handleSubmit}>
           <div>
-            <input type="tel"
-                   id="phone"
-                   name="phone"
-                   value={formData.phone}
-                   onChange={handleChange}
-                   placeholder={'Номер телефона'}
-                   required
+            <TextField type="tel"
+                       id="phone"
+                       name="phone"
+                       value={formData.phone}
+                       onChange={handleChange}
+                       placeholder={'Номер телефона'}
+                       required
+                       label="Номер телефона"
+                       variant='outlined'
             />
 
-            <input type="email"
-                   id="email"
-                   name="email"
-                   value={formData.email}
-                   onChange={handleChange}
-                   placeholder={'Email'}
-                   required
+            <TextField type="email"
+                       id="email"
+                       name="email"
+                       value={formData.email}
+                       onChange={handleChange}
+                       placeholder={'Email'}
+                       required
+                       label={'Email'}
+                       variant='outlined'
             />
 
-            <input type="text"
-                   id="address"
-                   name="address"
-                   value={formData.address}
-                   onChange={handleChange}
-                   placeholder={'Адрес'}
-                   required
+            <TextField type="text"
+                       id="address"
+                       name="address"
+                       value={formData.address}
+                       onChange={handleChange}
+                       placeholder={'Адрес'}
+                       required
+                       label={'Адрес'}
+                       variant='outlined'
             />
           </div>
 
           <div>
-            <label htmlFor="comment">Комментарий:</label><br />
-            <textarea id="comment"
-                      name="comment"
-                      value={formData.comment}
-                      onChange={handleChange}>
-            </textarea>
+            <TextField id="comment"
+                       type="text"
+                       name="comment"
+                       value={formData.comment}
+                       onChange={handleChange}
+                       label={'Комментарий'}
+                       variant='outlined'
+                       multiline
+            />
 
-            <input type="submit" value="Заказать" />
+            <input type="submit" value="Заказать"/>
           </div>
         </form>
       </div>
     </div>
   );
 };
-
-export default OrderSection;

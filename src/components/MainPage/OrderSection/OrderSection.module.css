@@ -1,4 +1,5 @@
 .container {
     height: 80%;
+    flex-direction: column;
 }
 

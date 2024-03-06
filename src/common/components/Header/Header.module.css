@@ -22,7 +22,7 @@
 
 .phone {
     grid-area: phone;
-    width: 160px;
+    width: 170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,8 +30,8 @@
 }
 
 .phone img {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
 }
 
 .phoneNumbers p {
