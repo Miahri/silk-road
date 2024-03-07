@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
-import container from "../../common/styles/Container.module.css";
+import container from "../../../common/styles/Container.module.css";
 import styles from "./CatalogPage.module.css";
-import wrapper from "../../common/styles/Wrapper.module.css";
-import {CatalogCard} from "./CatalogCard/CatalogCard";
-import card from "../../common/styles/Card.module.css";
-import {CatalogItemsType} from "../../api/types";
+import wrapper from "../../../common/styles/Wrapper.module.css";
+import {CatalogCard} from "../CatalogCard/CatalogCard";
+import card from "../../../common/styles/Card.module.css";
+import {CatalogItemsType} from "../../../api/types";
 
 type CatalogPagePropsType = {
   catalog: CatalogItemsType[]

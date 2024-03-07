@@ -1,6 +1,11 @@
 .noveltyCard {
     width: 350px;
+    height: 600px;
     margin-bottom: 15px;
+}
+
+.noveltyCard img {
+    height: 250px;
 }
 
 .noveltyCard button {
@@ -8,7 +13,8 @@
 }
 
 .description {
-    width: 220px;
+    width: 280px;
+    height: 350px;
     padding: 0 30px;
 }
 
@@ -16,15 +22,24 @@
     font-size: 14px;
 }
 
+.name, .descr {
+    height: 80px;
+}
+
 @media (max-width: 768px), (min-width: 769px) and (max-width: 1024px) {
     .noveltyCard {
         width: 160px;
+        height: 380px;
+    }
+    .noveltyCard img {
+        height: 120px;
     }
     .noveltyCard button {
         margin-bottom: 5px;
     }
     .description {
         width: 140px;
+        height: 230px;
         padding: 10px;
         margin: 0 auto;
     }
@@ -34,5 +49,8 @@
     }
     .description h3 {
         font-size: 12px;
+    }
+    .name, .descr {
+        height: 60px;
     }
 }

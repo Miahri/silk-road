@@ -1,8 +1,8 @@
 import React, {FC} from 'react';
-import card from "../../common/styles/Card.module.css";
-import product from "./ProductPage.module.css";
+import card from "../../../common/styles/Card.module.css";
+import product from "../ProductPage/ProductPage.module.css";
 import {Table} from "./Table";
-import {ProductType} from "../../api/types";
+import {ProductType} from "../../../api/types";
 
 type ProductDescrPropsType = {
   product: ProductType

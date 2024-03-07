@@ -1,16 +1,17 @@
 import React, {FC, useEffect, useState} from 'react';
-import wrapper from "../../common/styles/Wrapper.module.css";
-import card from "../../common/styles/Card.module.css";
-import product from "./ProductPage.module.css";
-import button from "../../common/styles/Button.module.css";
+import wrapper from "../../../common/styles/Wrapper.module.css";
+import card from "../../../common/styles/Card.module.css";
+import product from "../ProductPage/ProductPage.module.css";
+import button from "../../../common/styles/Button.module.css";
 import {Table} from "./Table";
-import {ProductType} from "../../api/types";
+import {ProductType} from "../../../api/types";
+import syossPure from './syossPure.png';
 
-type ProductCardPropsType = {
+type ProductInfoPropsType = {
   product: ProductType
 }
 
-export const ProductCard: FC<ProductCardPropsType> = (props) => {
+export const ProductInfo: FC<ProductInfoPropsType> = (props) => {
   const [showExternalImg, setShowExternalImg] = useState(false);
 
   useEffect(() => {
@@ -31,7 +32,7 @@ export const ProductCard: FC<ProductCardPropsType> = (props) => {
   return (
     <div className={wrapper.wrapper}>
       <div className={`${card.infoBlock} ${product.mainInfo}`}>
-        {showExternalImg && <img src={props.product.photo}
+        {showExternalImg && <img src={syossPure}
                                  alt={props.product.name}
                                  className={wrapper.productImg}/>}
         <h3>{props.product.name}</h3>

@@ -1,30 +1,33 @@
 import React, {FC} from 'react';
 import card from '../../../common/styles/Card.module.css';
 import button from '../../../common/styles/Button.module.css';
-import styles from './NoveltyCard.module.css';
+import styles from './ProductCard.module.css';
+import syossPure from '../ProductBlock/syossPure.png';
+import {Params, useNavigate, useParams} from "react-router-dom";
+import {ProductType} from "../../../api/types";
 
-export type NoveltyCardType = {
-  id: string
-  photo: string
-  name: string
-  description: string
-  cost: string
+type ProductCardPropsType = {
+  product: ProductType
 }
 
-type NoveltyCardPropsType = {
-  novelty: NoveltyCardType
-}
+export const ProductCard: FC<ProductCardPropsType> = (props) => {
+  const navigate = useNavigate();
+  const {catalogItemId} = useParams<Params>();
 
-export const NoveltyCard: FC<NoveltyCardPropsType> = (props) => {
+  const onClickHandler = () => {
+    const id = catalogItemId ? catalogItemId : "new";
+    navigate(`/catalog/${id}/products/${props.product.id}`);
+  }
+
   return (
     <div className={`${card.card} ${styles.noveltyCard}`}>
-      <img src={props.novelty.photo} alt="product"/>
+      <img src={syossPure} alt="product"/>
       <div className={styles.description}>
-        <p>#{(props.novelty.id).slice(0, 5)}</p>
-        <h3>{props.novelty.name}</h3>
-        <p>{props.novelty.description}</p>
-        <h3>{props.novelty.cost}</h3>
-        <button className={button.button}>Подробнее</button>
+        <p>#{props.product.id}</p>
+        <h3 className={styles.name}>{props.product.name}</h3>
+        <p className={styles.descr}>{props.product.description}</p>
+        <h3>{props.product.cost}</h3>
+        <button className={button.button} onClick={onClickHandler}>Подробнее</button>
       </div>
     </div>
   );

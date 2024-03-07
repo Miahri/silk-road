@@ -1,6 +1,6 @@
 import React, {FC} from 'react'
 import s from './Sidebar.module.css'
-import closeIcon from './closeOutline.svg'
+import closeIcon from './icons/closeOutline.svg'
 import {Nav} from "../Header/Nav/Nav";
 
 type PropsType = {

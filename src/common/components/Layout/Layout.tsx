@@ -1,5 +1,5 @@
 import React, { FC, ReactNode, useEffect, useState } from 'react'
-import { Sidebar } from '../sidebar/Sidebar'
+import { Sidebar } from '../Sidebar/Sidebar'
 import {Header} from "../Header/Header";
 
 type PropsType = {

@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import {PropertyType} from "../../api/types";
+import {PropertyType} from "../../../api/types";
 
 type TablePropsType = {
   properties: PropertyType[]
