@@ -2,9 +2,9 @@ import React, {useEffect, useState} from 'react';
 import {Nav} from './Nav/Nav';
 import styles from './Header.module.css';
 import logo from './logo.png';
-import phoneIcon from './phoneIcon.png';
+import phoneIcon from './icons/phone.svg';
 import {NavLink} from "react-router-dom";
-import burgerIcon from './burger.svg';
+import burgerIcon from './icons/burger-menu.svg';
 
 type PropsType = {
   handleOpen: () => void

@@ -5,14 +5,14 @@ import container from '../../styles/Container.module.css';
 import card from '../../styles/Card.module.css';
 import {v1} from "uuid";
 import {ContactItem, ContactItemType} from "./Contacts/ContactItem";
-import callIcon from './icons/callIcon.png';
-import emailIcon from './icons/emailIcon.png';
-import locationIcon from './icons/locationIon.png';
-import fbIcon from './icons/facebookIcon.png';
-import instaIcon from './icons/instaIcon.png';
-import tgIcon from './icons/telegramIcon.png';
-import vkIcon from './icons/vkIcon.png';
-import waIcon from './icons/whatsappIcon.png';
+import callIcon from './icons/phone.svg';
+import emailIcon from './icons/email.svg';
+import locationIcon from './icons/location.svg';
+import fbIcon from './icons/facebook.svg';
+import instaIcon from './icons/insta.svg';
+import tgIcon from './icons/telegram.svg';
+import vkIcon from './icons/vk.svg';
+import waIcon from './icons/wa.svg';
 
 const contacts: ContactItemType[] = [
   {id: v1(), name: 'phone', contactIcon: callIcon, contactData: ['+7(905)506-17-77', '+7(991)202-49-41']},

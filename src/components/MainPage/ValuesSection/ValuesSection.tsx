@@ -4,9 +4,9 @@ import wrapper from '../../../common/styles/Wrapper.module.css';
 import {OptionType, ValuesOption} from "./ValuesOption/ValuesOption";
 import values from './ValuesSection.module.css';
 import {v1} from "uuid";
-import cart from './icons/cartIcon.png';
-import email from './icons/emailIcon.png';
-import home from './icons/homeIcon.png';
+import cart from './icons/cart-shopping.svg';
+import email from './icons/email.svg';
+import home from './icons/home.svg';
 
 const valuesOptions: OptionType[] = [
   {id: v1(), icon: cart, name: 'Короткий тезис', description: 'Подробный текст в две строки для внесения ясности и деталей'},

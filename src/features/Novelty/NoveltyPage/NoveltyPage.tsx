@@ -1,12 +1,11 @@
 import React, {FC} from 'react';
-import container from "../../common/styles/Container.module.css";
 import styles from "./NoveltyPage.module.css";
-import {NoveltyCard, NoveltyCardType} from "./NoveltyCard/NoveltyCard";
+import {ProductCard, ProductCardType} from "../Products/ProductCard/ProductCard";
 import wrapper from "../../common/styles/Wrapper.module.css";
 import {v1} from "uuid";
 import {NavLink} from "react-router-dom";
 
-export let noveltyArr: Array<NoveltyCardType> = [
+export let noveltyArr: Array<ProductCardType> = [
   {id: v1(),
     photo: "https://imgscf.slidemembers.com/docs/1/1/957/home_living_interior_ppt_template_for_pitch_deck_956907.jpg",
     name: "Plants",
@@ -72,10 +71,10 @@ export const NoveltyPage: FC<NoveltySectionPropsType> = (props) => {
 
   return (
     <div className={props.styles}>
-      <div className={`${container.container} ${styles.container}`}>
+      <div className={`${styles.container}`}>
         <NavLink to={'/new-products'}><h2>Новинки</h2></NavLink>
         <div className={wrapper.wrapper}>
-          {arr.map(pr => <NoveltyCard key={pr.id} novelty={pr}/>)}
+          {arr.map(pr => <ProductCard key={pr.id} product={pr} catalogItemId={'8'}/>)}
         </div>
       </div>
     </div>

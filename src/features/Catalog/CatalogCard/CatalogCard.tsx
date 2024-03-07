@@ -2,19 +2,20 @@ import React, {FC} from 'react';
 import card from "../../../../common/styles/Card.module.css";
 import catalog from "../CatalogSection.module.css";
 import button from "../../../../common/styles/Button.module.css";
-import {NoveltyCardType} from "../../../NoveltyPage/NoveltyCard/NoveltyCard";
+import {CatalogItemsType} from "../../../../api/types";
+import beautyProd from './8.png';
 
 type CatalogCardPropsType = {
-  novelty: NoveltyCardType
+  catalogItem: CatalogItemsType
 }
 
 export const CatalogCard: FC<CatalogCardPropsType> = (props) => {
 
   return (
     <>
-      <img src={props.novelty.photo} alt={"catalog"}/>
+      <img src={beautyProd} alt={"catalog"}/>
       <div className={`${card.infoBlock} ${catalog.description}`}>
-        <p>{props.novelty.name}</p>
+        <p>{props.catalogItem.name}</p>
         <button className={button.button}>Подробнее</button>
       </div>
     </>
