@@ -18,8 +18,10 @@
     "@types/react-redux": "^7.1.25",
     "@types/uuid": "^9.0.8",
     "axios": "^1.6.8",
+    "concurrently": "^8.2.2",
     "gh-pages": "^6.1.1",
     "json-server": "^1.0.0-alpha.23",
+    "open-cli": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.1",
@@ -36,7 +38,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "dev": "concurrently \\\\\\\\\\\\\\\"json-server -w public/data/db.json -s /\\\\\\\\\\\\\\\" \\\\\\\\\\\\\\\"open-cli http://localhost:3001\\\\\\\\\\\\\\\""
   },
   "eslintConfig": {
     "extends": [
