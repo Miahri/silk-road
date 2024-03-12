@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/silk-road/static/css/main.8054b556.css",
+    "main.css": "/silk-road/static/css/main.cb600f22.css",
     "main.js": "/silk-road/static/js/main.af757657.js",
     "static/js/787.8bc065f6.chunk.js": "/silk-road/static/js/787.8bc065f6.chunk.js",
     "static/media/syoss.png": "/silk-road/static/media/syoss.2d49d000f1d43c080da6.png",
@@ -13,12 +13,12 @@
     "static/media/closeOutline.svg": "/silk-road/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "index.html": "/silk-road/index.html",
     "static/media/burger.svg": "/silk-road/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.8054b556.css.map": "/silk-road/static/css/main.8054b556.css.map",
+    "main.cb600f22.css.map": "/silk-road/static/css/main.cb600f22.css.map",
     "main.af757657.js.map": "/silk-road/static/js/main.af757657.js.map",
     "787.8bc065f6.chunk.js.map": "/silk-road/static/js/787.8bc065f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8054b556.css",
+    "static/css/main.cb600f22.css",
     "static/js/main.af757657.js"
   ]
 }
