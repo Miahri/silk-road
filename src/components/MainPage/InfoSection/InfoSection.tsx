@@ -3,7 +3,7 @@ import styles from './InfoSection.module.css';
 import container from '../../../common/styles/Container.module.css';
 import wrapper from '../../../common/styles/Wrapper.module.css';
 import button from '../../../common/styles/Button.module.css';
-import syoss from './syoss.png';
+import syoss from './images/syoss.png';
 
 export const InfoSection = () => {
   const [showExternalImg, setShowExternalImg] = useState(false);
@@ -27,7 +27,7 @@ export const InfoSection = () => {
   return (
     <div className={container.section}>
       <div className={container.container}>
-        <div className={`${styles.introduction}`}>
+        <div className={styles.introduction}>
           <span>НОВИНКИ</span>
           <h1>БАЛЬЗАМ SYOSS PURE BOUNCE</h1>
           {showExternalImg && <img src={syoss} alt="productPhoto" className={wrapper.productImg}/>}

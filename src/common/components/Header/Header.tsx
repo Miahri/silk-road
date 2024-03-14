@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Nav} from './Nav/Nav';
 import styles from './Header.module.css';
-import logo from './logo.png';
+import logo from './logos/logo.png';
 import phoneIcon from './icons/phone.svg';
 import {NavLink} from "react-router-dom";
 import burgerIcon from './icons/burger-menu.svg';
@@ -38,12 +38,12 @@ export const Header = (props: PropsType) => {
     <div className={styles.header}>
       <div className={styles.container}>
         {showExternalIcon && <img
-          src={burgerIcon}
-          className={styles.burgerMenuIcon}
-          onClick={props.handleOpen}
-          alt={'open menu'}
+            src={burgerIcon}
+            className={styles.burgerMenuIcon}
+            onClick={props.handleOpen}
+            alt={'open menu'}
         />}
-        <NavLink to={'/'}><img src={logo} alt={'logo'} className={styles.logo} /></NavLink>
+        <NavLink to={'/'}><img src={logo} alt={'logo'} className={styles.logo}/></NavLink>
         {!showExternalIcon && <Nav/>}
         <div className={styles.phone}>
           <img src={phoneIcon} alt={'phoneIcon'}/>

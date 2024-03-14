@@ -1,5 +1,5 @@
 import React from 'react';
-import footerLogo from './footerLogo.png';
+import footerLogo from './logos/footerLogo.png';
 import styles from "./Footer.module.css";
 import container from '../../styles/Container.module.css';
 import card from '../../styles/Card.module.css';
