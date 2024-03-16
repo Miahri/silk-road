@@ -32,10 +32,10 @@
 
 .description {
     width: 90%;
-    height: 150px;
-    justify-content: space-evenly;
+    height: 120px;
+    justify-content: space-around;
     padding: 0;
-    margin: 0 30px;
+    margin: 0 30px 20px 30px;
 }
 
 .box4 .description, .box8 .description {
@@ -43,6 +43,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 30px;
 }
 
 .description p {
@@ -111,11 +112,11 @@
         height: 120px !important;
     }
     .box1 .description, .box2 .description, .box3 .description, .box4 .description,
-    .box5 .description, .box6 .description, .box7 .description, .box8 .description {
-        height: 80px;
+    .box5 .description, .box6 .description, .box7 .description, .box8 .description, .description {
+        height: 90px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
         text-align: left;
         box-sizing: border-box;

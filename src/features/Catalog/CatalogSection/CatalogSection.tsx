@@ -1,43 +1,46 @@
-import React from 'react';
+import React, {FC} from 'react';
 import container from "../../../common/styles/Container.module.css";
-import catalog from './CatalogSection.module.css';
-import {noveltyArr} from "../../NoveltyPage/NoveltyPage";
+import catalogStyles from './CatalogSection.module.css';
 import card from '../../../common/styles/Card.module.css';
 import {NavLink} from "react-router-dom";
-import {CatalogCard} from "./CatalogCard/CatalogCard";
+import {CatalogCard} from "../CatalogCard/CatalogCard";
+import {CatalogItemsType} from "../../../api/types";
 
-export const CatalogSection = () => {
+type CatalogSectionPropsType = {
+  catalogItems: CatalogItemsType[]
+}
+
+export const CatalogSection: FC<CatalogSectionPropsType> = ({catalogItems}) => {
   return (
-    <div className={`${container.section} ${catalog.section}`}>
-      <div className={`${container.container} ${catalog.container}`}>
+    <div className={`${container.section} ${catalogStyles.section}`}>
+      <div className={`${container.container} ${catalogStyles.container}`}>
         <NavLink to={'/catalog'}><h2>Каталог</h2></NavLink>
-        <div className={catalog.wrapper}>
-          <div className={`${card.card} ${catalog.box1}`}>
-              <CatalogCard novelty={noveltyArr[0]} />
-          </div>
-          <div className={`${card.card} ${catalog.box2}`}>
-            <CatalogCard novelty={noveltyArr[1]} />
-          </div>
-          <div className={`${card.card} ${catalog.box3}`}>
-            <CatalogCard novelty={noveltyArr[2]} />
-          </div>
-          <div className={`${card.card} ${catalog.box4}`}>
-            <CatalogCard novelty={noveltyArr[3]} />
-          </div>
-          <div className={`${card.card} ${catalog.box5}`}>
-            <CatalogCard novelty={noveltyArr[4]} />
-          </div>
-          <div className={`${card.card} ${catalog.box6}`}>
-            <CatalogCard novelty={noveltyArr[5]} />
-          </div>
-          <div className={`${card.card} ${catalog.box7}`}>
-            <CatalogCard novelty={noveltyArr[6]} />
-          </div>
-          <div className={`${card.card} ${catalog.box8}`}>
-            <CatalogCard novelty={noveltyArr[7]} />
-          </div>
+        <div className={catalogStyles.wrapper}>
+          {catalogItems[0] && <div className={`${card.card} ${catalogStyles.box1}`}>
+            <CatalogCard key={catalogItems[0].id} catalogItem={catalogItems[0]} />
+          </div>}
+          {catalogItems[1] && <div className={`${card.card} ${catalogStyles.box2}`}>
+            <CatalogCard key={catalogItems[1].id} catalogItem={catalogItems[1]} />
+          </div>}
+          {catalogItems[2] && <div className={`${card.card} ${catalogStyles.box3}`}>
+            <CatalogCard key={catalogItems[2].id} catalogItem={catalogItems[2]} />
+          </div>}
+          {catalogItems[3] && <div className={`${card.card} ${catalogStyles.box4}`}>
+            <CatalogCard key={catalogItems[3].id} catalogItem={catalogItems[3]} />
+          </div>}
+          {catalogItems[4] && <div className={`${card.card} ${catalogStyles.box5}`}>
+            <CatalogCard key={catalogItems[4].id} catalogItem={catalogItems[4]} />
+          </div>}
+          {catalogItems[5] && <div className={`${card.card} ${catalogStyles.box6}`}>
+            <CatalogCard key={catalogItems[5].id} catalogItem={catalogItems[5]} />
+          </div>}
+          {catalogItems[6] && <div className={`${card.card} ${catalogStyles.box7}`}>
+            <CatalogCard key={catalogItems[6].id} catalogItem={catalogItems[6]} />
+          </div>}
+          {catalogItems[7] && <div className={`${card.card} ${catalogStyles.box8}`}>
+            <CatalogCard key={catalogItems[7].id} catalogItem={catalogItems[7]} />
+          </div>}
         </div>
-
       </div>
     </div>
   );
