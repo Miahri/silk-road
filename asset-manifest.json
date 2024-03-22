@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/silk-road/static/css/main.cb600f22.css",
-    "main.js": "/silk-road/static/js/main.af757657.js",
+    "main.css": "/silk-road/static/css/main.97dd1252.css",
+    "main.js": "/silk-road/static/js/main.a250b500.js",
     "static/js/787.8bc065f6.chunk.js": "/silk-road/static/js/787.8bc065f6.chunk.js",
     "static/media/syoss.png": "/silk-road/static/media/syoss.2d49d000f1d43c080da6.png",
     "static/media/syossPure.png": "/silk-road/static/media/syossPure.e8f0e8d8c81ff8527187.png",
@@ -10,15 +10,25 @@
     "static/media/oldSpiceLogo.png": "/silk-road/static/media/oldSpiceLogo.712e1bb8006e97fc4b36.png",
     "static/media/schaumaLogo.png": "/silk-road/static/media/schaumaLogo.8b575b09ee19aaea9404.png",
     "static/media/syossLogo.png": "/silk-road/static/media/syossLogo.96fc3863fb49593eca59.png",
+    "static/media/wa.svg": "/silk-road/static/media/wa.c63194ed6a396d001586c211b1a08e62.svg",
+    "static/media/vk.svg": "/silk-road/static/media/vk.29f6d16f36bc47611eaee0ba0f23e640.svg",
+    "static/media/telegram.svg": "/silk-road/static/media/telegram.c568250739ea0dd48fe104667193adb9.svg",
     "static/media/closeOutline.svg": "/silk-road/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
+    "static/media/phone.svg": "/silk-road/static/media/phone.ef3eefb17dc41d321b7ed7da625d6bf8.svg",
+    "static/media/email.svg": "/silk-road/static/media/email.80e1b90481af915ca9ef6efd3bf12da2.svg",
+    "static/media/facebook.svg": "/silk-road/static/media/facebook.a32d054ccf4277744df569eececda630.svg",
+    "static/media/cart-shopping.svg": "/silk-road/static/media/cart-shopping.da34b7a1803839a5b6d3780dad4f43c9.svg",
+    "static/media/location.svg": "/silk-road/static/media/location.94806bb045cee4ffaf1d9f185ad2c855.svg",
+    "static/media/home.svg": "/silk-road/static/media/home.e4921c4ca4713912db5df07d29e48987.svg",
+    "static/media/insta.svg": "/silk-road/static/media/insta.8111417b8466fa82760b396c6fd7c400.svg",
+    "static/media/burger-menu.svg": "/silk-road/static/media/burger-menu.cc2654fba8d7705207882e84f895d8c2.svg",
     "index.html": "/silk-road/index.html",
-    "static/media/burger.svg": "/silk-road/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.cb600f22.css.map": "/silk-road/static/css/main.cb600f22.css.map",
-    "main.af757657.js.map": "/silk-road/static/js/main.af757657.js.map",
+    "main.97dd1252.css.map": "/silk-road/static/css/main.97dd1252.css.map",
+    "main.a250b500.js.map": "/silk-road/static/js/main.a250b500.js.map",
     "787.8bc065f6.chunk.js.map": "/silk-road/static/js/787.8bc065f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb600f22.css",
-    "static/js/main.af757657.js"
+    "static/css/main.97dd1252.css",
+    "static/js/main.a250b500.js"
   ]
 }
