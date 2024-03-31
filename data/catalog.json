@@ -1,0 +1,11 @@
+[
+  {"id": "1", "name": "Товары по уходу за одеждой и обувью", "photo": "images/catalog/1.png"},
+  {"id": "2", "name": "Средства для стирки", "photo": "images/catalog/2.png"},
+  {"id": "3", "name": "Чистящие средтва", "photo": "images/catalog/3.png"},
+  {"id": "4", "name": "Средства для мытья посуды", "photo": "images/catalog/4.png"},
+  {"id": "5", "name": "Освежители воздуха", "photo": "images/catalog/5.png"},
+  {"id": "6", "name": "Хозтовары", "photo": "images/catalog/6.png"},
+  {"id": "7", "name": "Аксессуары для уборки", "photo": "images/catalog/7.png"},
+  {"id": "8", "name": "Товары для красоты", "photo": "images/catalog/8.png"},
+  {"id": "9", "name": "Бумажная продукция", "photo": "images/catalog/9.png"}
+]

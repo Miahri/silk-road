@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/silk-road/static/css/main.97dd1252.css",
-    "main.js": "/silk-road/static/js/main.a250b500.js",
+    "main.css": "/silk-road/static/css/main.6ddfd264.css",
+    "main.js": "/silk-road/static/js/main.c8d7d10e.js",
     "static/js/787.8bc065f6.chunk.js": "/silk-road/static/js/787.8bc065f6.chunk.js",
     "static/media/syoss.png": "/silk-road/static/media/syoss.2d49d000f1d43c080da6.png",
     "static/media/syossPure.png": "/silk-road/static/media/syossPure.e8f0e8d8c81ff8527187.png",
+    "static/media/8.png": "/silk-road/static/media/8.2277da25103c307f6de2.png",
     "static/media/footerLogo.png": "/silk-road/static/media/footerLogo.02dcd2cbec2fa1c764ab.png",
     "static/media/404.svg": "/silk-road/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
     "static/media/oldSpiceLogo.png": "/silk-road/static/media/oldSpiceLogo.712e1bb8006e97fc4b36.png",
@@ -23,12 +24,12 @@
     "static/media/insta.svg": "/silk-road/static/media/insta.8111417b8466fa82760b396c6fd7c400.svg",
     "static/media/burger-menu.svg": "/silk-road/static/media/burger-menu.cc2654fba8d7705207882e84f895d8c2.svg",
     "index.html": "/silk-road/index.html",
-    "main.97dd1252.css.map": "/silk-road/static/css/main.97dd1252.css.map",
-    "main.a250b500.js.map": "/silk-road/static/js/main.a250b500.js.map",
+    "main.6ddfd264.css.map": "/silk-road/static/css/main.6ddfd264.css.map",
+    "main.c8d7d10e.js.map": "/silk-road/static/js/main.c8d7d10e.js.map",
     "787.8bc065f6.chunk.js.map": "/silk-road/static/js/787.8bc065f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97dd1252.css",
-    "static/js/main.a250b500.js"
+    "static/css/main.6ddfd264.css",
+    "static/js/main.c8d7d10e.js"
   ]
 }
